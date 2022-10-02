@@ -1,0 +1,20 @@
+.rodape {
+    background-color: var(--cor-roxa);
+    height: 200px;
+    text-align: center;
+}
+
+.rodape img {
+    margin: 2em 0 1em 0;
+}
+
+.rodape__texto {
+    color: var(--cor-cinza);
+    font-size: 14px;
+}
+
+.rodape__texto a {
+    color: var(--cor-amarela);
+    text-transform: uppercase;
+    text-decoration: none;
+}

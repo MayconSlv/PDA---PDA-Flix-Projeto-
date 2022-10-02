@@ -1,0 +1,19 @@
+.card-series {
+    background: url("../images/logo.png") no-repeat right top;
+}
+
+.card-filme {
+    background: url("../images/logo-alternative.svg") no-repeat left bottom;
+}
+
+.card-harry {
+    background: url("../images/logo.png") no-repeat center top;
+}
+
+.card-desenho {
+    background: url("../images/logo-alternative.svg") no-repeat left center;
+}
+
+.card-anime {
+    background: url("../images/logo.png") no-repeat right bottom;
+}

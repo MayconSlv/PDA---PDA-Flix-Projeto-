@@ -1,0 +1,21 @@
+@import url("assets/header.css");
+@import url("assets/destaque.css");
+@import url("assets/card.css");
+@import url("assets/rodape.css");
+@import url("assets/background.css");
+
+:root {
+    --fonte-padrao: 'Open Sans', sans-serif;
+    --background: #050505;
+    --backgorund-header: #0d0f11;
+    --background-hover: #3d3f41;
+    --cor-branca: #fff;
+    --cor-amarela: #ebda4c;
+    --cor-roxa: #24072A;
+    --cor-cinza: #555555;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: #050505;
+}

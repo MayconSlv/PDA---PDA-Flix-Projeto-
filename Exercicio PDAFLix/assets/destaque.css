@@ -1,0 +1,81 @@
+.principal {
+    background: url("../images/filmes/Shrek-2.avif") center;
+}
+
+.principal-destaque {
+    background: linear-gradient(90deg, black 15%, transparent);
+}
+
+.principal__titulo {
+    font-weight: 600;
+    font-size: 24px;
+
+    color: var(--cor-branca);
+
+    padding: 1em;
+}
+
+.principal__filme {
+    font-weight: 700;
+    font-size: 48px;
+
+    color: var(--cor-branca);
+
+    padding: .5em 0 .4em .5em;
+}
+
+.principal__texto {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+
+    color: var(--cor-branca);
+
+    width: 40%;
+    padding: 0 0 2em 2em;
+}
+
+.links-container {
+    padding: 2em 0 7em 1em;
+}
+
+.links {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: .5em 1.5em;
+}
+
+.links__agora {
+    color: var(--cor-amarela);
+    border-radius: 24px;
+}
+
+.links__agora:hover {
+    background-color: var(--cor-amarela);
+    color: var(--cor-roxa);
+    font-size: 15px;
+}
+
+.links__depois {
+    color: var(--cor-amarela);
+    border-radius: 24px;
+}
+
+.links__depois:hover {
+    font-size: 15px;
+    background-color: var(--cor-amarela);
+    color: var(--cor-roxa);
+}
+
+.links__baixar {
+    background-color: var(--cor-roxa);
+    border-radius: 4px;
+    margin-left: 1em;
+    font-weight: 700;
+    color: var(--cor-amarela);
+}
+
+.links__baixar:hover {
+    padding: .8em 2.5em;
+}

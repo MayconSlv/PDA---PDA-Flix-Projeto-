@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDA Flix</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__container">
+            <img src="images/logo.png" alt="Logo" class="cabecalho__logo">
+            <ul class="cabecalho__nav">
+                <li class="nav__link">Início</li>
+                <li class="nav__link">Séries</li>
+                <li class="nav__link">Filmes</li>
+                <li class="nav__link">Minha lista</li>
+                <input type="checkbox" id="menu" class="menu__botao">
+                <label for="menu">
+                    <li class="nav__link">Categorias</li>
+                </label>
+                <ul class="categorias">
+                    <li class="categorias__link">Ação</li>
+                    <li class="categorias__link">Comédia</li>
+                    <li class="categorias__link">Drama</li>
+                    <li class="categorias__link categorias-destaque">Ver todas</li>
+                </ul>
+            </ul>
+        </div>
+
+        <div>
+            <input type="search" placeholder="Pesquisar" class="cabecalho__pesquisa">
+            <img src="images/perfil.jpg" alt="Foto do seu perfil" class="perfil">
+        </div>
+    </header>
+
+    <main class="principal">
+        <div class="principal-destaque">
+            <h1 class="principal__titulo">Filme destaque da semana</h1>
+            <h2 class="principal__filme">Shrek 2</h2>
+            <p class="principal__texto">Shrek e Fiona acabaram de voltar da lua de mel e vivem felizes em sua casa no
+                pântano. O casal recebe um convite dos pais da princesa, que querem conhecer o novo genro, para um
+                jantar no castelo. Eles ficaram sabendo que Fiona havia se casado com o seu verdadeiro amor, mas o que
+                eles ainda não sabem é que este amor é um ogro mal-educado de mais de 300 quilos, que conta com um burro
+                falante como melhor amigo.</p>
+            <div class="links-container">
+                <a href="#"class="links links__agora">Assistir agora</a>
+                <a href="#"class="links links__depois">Assistir mais tarde</a>
+                <a href="https://filmeviatorrents.org/shrek-2-torrent-222/" target="_blank" class="links links__baixar">Baixar</a>
+            </div>
+        </div>
+    </main>
+
+    <section class="card card-filme">
+        <h3 class="card__titulo">Filmes mais assistidos essa semana</h3>
+        <ul class="card__list">
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/ultimato.jpg" alt="Vingadores Ultimato - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/blackpanther.jpg" alt="Pantera Negra - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/rush.jpg" alt="Hora do Rush - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/branquelas.webp" alt="As Branquelas - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/spiderman2.webp" alt="Homem Aranha 2 - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/enola.jpg" alt="Enola Holmes - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/animais.jpg" alt="Aniais Fantásticos e Onde Habitam - Filme"></a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="card card-series">
+        <h3 class="card__titulo">As séries mais assistidas pelos programadores</h3>
+        <ul class="card__list">
+            <li class="card__item">
+                <a href="#"><img src="images/séries/friends.jpg" alt="Friends - Série"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/séries/brooklyn99.jpg" alt="Brooklyn 99 - Série"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/séries/chris.jpg" alt="Todo Mundo Odeia o Chris - Série"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/séries/boys.jpg" alt="The Boys - Série"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/séries/peakyblinders.jpg" alt="Peaky Blinders - Série"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/séries/strenger.jpg" alt="Stranger Things - Série"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/séries/suits.jpg" alt="Suits - Série"></a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="card card-harry">
+        <h3 class="card__titulo">Sessão Harry Potter</h3>
+        <ul class="card__list">
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/filosofal.webp" alt="Harry Potter e a Pedra Filosofal - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/camara.webp" alt="Harry Potter e a Câmara Secreta - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/prisioneiro.webp" alt="Harry Potter e o Prisioneiro de Azkaban - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/calice.jpg" alt="Harry Potter e o Calice de Fogo - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/fenix.jpg" alt="Harry Potter e a Ordem da Fênix - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/principe.webp" alt="Harry Potter e o Enigma do Príncipe - Filme"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/filmes/reliquias.jpg" alt="Harry Potter e as Relíquias da Morte - Filme"></a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="card card-desenho">
+        <h3 class="card__titulo">Animações para animar sua semana</h3>
+        <ul class="card__list">
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/adventuretime.jpg" alt="Hora de Aventura - Desenho"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/barbie.jpg" alt="Barbie Escola de Princesas - Desenho"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/gravity.jpg" alt="Gravity Falls - Desenho"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/gumball.jpg" alt="O Incrível mundo de Gumball - Desenho"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/leao.jpg" alt="Rei Leão - Desenho"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/rickandmorty.png" alt="Rick and Morty - Desenho"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/simpsons.jpg" alt="Os Simpsons - Desenho"></a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="card card-anime">
+        <h3 class="card__titulo">Sessão animes</h3>
+        <ul class="card__list">
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/69a66b1ca989fe602045f221ee09900b.jpg" alt="Charlotte - Anime"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/78745.jpg" alt="Boku no Hero - Anime"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/8d5a4fffc9ef16404beb1aadc0ef0926.jpg" alt="Naruto - Anime"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/image2.webp" alt="One Piece - Anime"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/desenhos/legiao_gXV7FP1wbh_U-scaled.jpg" alt="Shingeki no Kyojin - Anime"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/séries/strenger.jpg" alt="Stranger Things - Série"></a>
+            </li>
+            <li class="card__item">
+                <a href="#"><img src="images/séries/suits.jpg" alt="Suits - Série"></a>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="rodape">
+        <img src="images/logo.svg" alt="logo do Programadores do Amanhã">
+        <p class="rodape__texto">Site desenvolvido por <a href="https://github.com/MayconSlv" target="_blank">Maycon Silva</a> na aula de programação do <a href="https://programadoresdoamanha.org/" target="_blank">Programadores do Amanhã</a>.</p>
+    </footer>
+</bodyS>
+
+</html>
